@@ -1,65 +1,175 @@
+/*setting the margins of the document*/
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
-
+/*setting the header container*/
 .header-container {
     padding-left: 250px;
     padding-right: 250px;
     background-color: #1f2937;
     color: #f9faf8;
+    
 }
-
+/*setting the header to support the boxes*/
 .header {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
-
+/*setting the logo*/
 .logo {
     font-size: 24px;
 }
-
+/*arranging the links */
 .links {
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 a {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
-    padding-left: 100px;
+    color: lightblue;
+    
 }
-
+/*working on the hero header content*/
 .hero-main-container {
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 80px;
     background-color: #1f2937;
     color: #f9faf8;
+        
 }
-
+/*preparing the main box */
 .hero-main {
     display: flex;
     justify-content: space-between;
+    gap: 100px;
+    
 }
 
 .informations {
-    padding-right: 200px;
-    padding-bottom: 25px;
+    padding-right: 300px;
+    margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
+    
        
 }
-
+/*adjusting the image*/
 img {
-    width: 750px;
+    width: 550px;
     height: 250px;
- }
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: -100px;
+    margin-top: -25px;
+}
+
+/*edit the button aspect */
+
+button {
+    background-color: #3882f6;
+    border-radius: 0%;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: wheat;
+}
+
+/*Some random info containter */
+
+.content-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*setting the images */
+.squares-container {
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    gap: 8px;
+}
+
+.square img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+
+figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 16px;
+}
+
+/*add the quote*/
+.thor-container {
+    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 450px;
+    padding-right: 450px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.thor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.thor-quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    
+}
